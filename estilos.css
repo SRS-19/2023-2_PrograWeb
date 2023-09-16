@@ -1,0 +1,111 @@
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecera1 img {
+    width: 100px; 
+    height: auto;
+    text-align: right;
+}
+
+.menuCabecera {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menuCabecera img {
+    width: 40px; 
+    height: 30; 
+    margin-right: 400px;
+}
+
+.menuCabecera li {
+    margin-right: 90px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menuCabecera li:hover a {
+    text-decoration: underline;
+}
+
+.imagenPequeña{
+    background-size: 0%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.imagen-de-fondo {
+    position: relative; 
+}
+
+.imagen-de-fondo img:first-child {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.imagen-superpuesta img {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.imagen-superpuesta {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.imagen-superpuesta h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.imagen-superpuesta p {
+    font-size: 16px;
+}
+
+.imagen-superpuesta button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.imagen-superpuesta button:hover {
+    background-color: #45a049;
+}
